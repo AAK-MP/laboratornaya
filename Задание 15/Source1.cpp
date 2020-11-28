@@ -1,4 +1,4 @@
-include <math.h>
+#include <math.h>
 #include<stdio.h>
 #include<locale.h> 
 void PowerA3(float A, float* B)
@@ -11,10 +11,10 @@ int main(void)
     int i;
     float A, B;
     for (i = 1; i <= 5; i++) {
-        printf("Ââåäèòå ÷èñëî:");
+        printf("Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®:");
         scanf_s("%f", &A);
         PowerA3(A, &B);
-        printf("×èñëî â òðåòüåé ñòåïåíè ðàâíî: %f\n", B);
+        printf("Ã—Ã¨Ã±Ã«Ã® Ã¢ Ã²Ã°Ã¥Ã²Ã¼Ã¥Ã© Ã±Ã²Ã¥Ã¯Ã¥Ã­Ã¨ Ã°Ã Ã¢Ã­Ã®: %f\n", B);
     }
     return 0;
 }
